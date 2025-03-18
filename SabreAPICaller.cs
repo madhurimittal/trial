@@ -269,4 +269,5 @@ public async Task<String> GetToken(string url)
     }
 
 private const string GrantType = "grant_type=client_credentials";
-private const string ContentType = "application/x-www-form-urlencoded";}
+private const string ContentType = "application/x-www-form-urlencoded";
+}

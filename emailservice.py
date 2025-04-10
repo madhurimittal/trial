@@ -131,7 +131,7 @@ fileNamesList = [
                 }
             )
 
-            print(f'Mail sent response: {response}')
+           # print(f'Mail sent response: {response}')
 
         except Exception as e:
             print(f"Error in sending missing files mail: {e.response['Error']['Message']}")

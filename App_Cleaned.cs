@@ -40,7 +40,7 @@ namespace ElectronNET.API
             }
         }
 
-        private event Action _windowAllClosed;
+        //private event Action _windowAllClosed;
 
         public event Func<QuitEventArgs, Task> BeforeQuit
         {

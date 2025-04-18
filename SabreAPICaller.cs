@@ -223,6 +223,7 @@ public async Task<String> GetToken(string url)
                 }
 
                 var response = await sabreResponse.Content.ReadAsStringAsync();
+                console.log( response );
                 return new APIResponse { StatusCode = HttpStatusCode.OK, Response = response };
             }
         }
